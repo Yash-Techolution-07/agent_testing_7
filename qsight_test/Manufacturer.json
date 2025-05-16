@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "Manufacturer",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:43:40.384000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.Manufacturer`\n(\n  ManufacturerId STRING NOT NULL,\n  GlobalManufacturerId STRING,\n  ManufacturerCode STRING(50) NOT NULL,\n  ManufacturerName STRING(150) NOT NULL,\n  Address STRING(150),\n  City STRING(150),\n  StateRegion STRING(50),\n  PostalCode STRING(16),\n  CountryName STRING(50),\n  PhoneNumber STRING(30),\n  FaxNumber STRING(30),\n  WebSite STRING(255),\n  DateCreated TIMESTAMP NOT NULL,\n  DateLastModified TIMESTAMP NOT NULL\n)\nPARTITION BY DATE(DateCreated);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
