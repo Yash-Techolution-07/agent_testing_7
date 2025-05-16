@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "ProductOverride",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:55:43.089000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.ProductOverride`\n(\n  ProductOverrideId STRING NOT NULL,\n  ProductId STRING NOT NULL,\n  FacilityId STRING NOT NULL,\n  DepartmentId STRING,\n  UsageDesignation STRING,\n  CostCenter STRING,\n  RequireInspection BOOL NOT NULL,\n  TranslatedTemperatureId STRING,\n  ImplantTemperatureTypeId STRING,\n  RequireLotNumber BOOL,\n  RequireExpirationDate BOOL,\n  RequireLocation BOOL,\n  RequireTag BOOL,\n  RequireSerialNumber BOOL,\n  ShowFDAAlerts BOOL,\n  UserId STRING NOT NULL,\n  DateCreated DATETIME NOT NULL,\n  DateLastModified DATETIME NOT NULL\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
