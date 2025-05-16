@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "cm_encounter_patient_legacy",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:44:01.759000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.cm_encounter_patient_legacy`\n(\n  cm_encounter_patient_id INT64,\n  ethinicity STRING(100),\n  gender STRING(1),\n  patient_height FLOAT64,\n  patient_weight FLOAT64,\n  body_site STRING(50),\n  body_side STRING(50),\n  bmi FLOAT64,\n  shoe_size FLOAT64,\n  created_by INT64,\n  last_modified_by INT64,\n  created_on TIMESTAMP,\n  last_modified_date TIMESTAMP\n);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}

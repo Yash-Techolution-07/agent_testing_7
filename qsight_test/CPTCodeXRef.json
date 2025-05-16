@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "CPTCodeXRef",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:44:20.133000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.CPTCodeXRef`\n(\n  CPTCodeXRefId STRING NOT NULL,\n  CPTCodeId STRING NOT NULL,\n  ProcedureCode STRING(100) NOT NULL,\n  ProcedureDescription STRING(100),\n  CPTModifierId STRING,\n  DateCreated TIMESTAMP NOT NULL,\n  DateLastModified TIMESTAMP NOT NULL\n)\nPARTITION BY DATE(DateCreated);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
