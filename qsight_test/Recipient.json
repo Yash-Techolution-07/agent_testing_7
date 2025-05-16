@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "Recipient",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:45:25.885000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.Recipient`\n(\n  RecipientId STRING NOT NULL,\n  RecipientTypeId STRING NOT NULL,\n  FirstName STRING(50),\n  LastName STRING(50),\n  EmailAddress STRING(100),\n  UserId STRING,\n  ManufacturerId STRING,\n  OrganizationName STRING(100),\n  PhoneNumber STRING(30),\n  FaxNumber STRING(30),\n  Inactive BOOL NOT NULL,\n  DateCreated TIMESTAMP NOT NULL,\n  DateLastModified TIMESTAMP NOT NULL\n)\nPARTITION BY DATE(DateCreated);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
