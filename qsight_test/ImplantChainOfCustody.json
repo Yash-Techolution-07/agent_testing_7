@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "ImplantChainOfCustody",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:44:05.258000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.ImplantChainOfCustody`\n(\n  ImplantChainOfCustodyId STRING NOT NULL,\n  DepartmentId STRING NOT NULL,\n  ProductVariantId STRING NOT NULL,\n  ImplantStatusId STRING NOT NULL,\n  EncounterProductId STRING,\n  InventoryTransactionTypeId STRING,\n  InventoryTransactionId STRING,\n  InspectionResultId STRING NOT NULL,\n  InspectionResultReasonId STRING,\n  StorageLocation STRING(50),\n  InspectionNote STRING(2048),\n  FinalDisposition STRING(2048),\n  Temperature FLOAT64,\n  CabinetTemperature FLOAT64,\n  UnitTypeId STRING,\n  TranslatedTemperatureId STRING,\n  LowerTemperatureRange STRING(20),\n  UpperTemperatureRange STRING(20),\n  DonerIdentifier STRING(55),\n  SourceFacility STRING(50),\n  Courier STRING(50),\n  CourierNote STRING(1024),\n  ReceiverName STRING(255),\n  PONumber STRING(50),\n  TissueCardSent BOOL NOT NULL,\n  ImplantedByStaffId STRING,\n  DateImplanted TIMESTAMP,\n  Autologous BOOL NOT NULL,\n  SiteId STRING,\n  SideId STRING,\n  UserId STRING NOT NULL,\n  DateCreated TIMESTAMP NOT NULL,\n  DateLastModified TIMESTAMP NOT NULL\n)\nPARTITION BY DATE(DateCreated);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}

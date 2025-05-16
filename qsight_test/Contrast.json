@@ -1,0 +1,23 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "Contrast",
+    "table_type": "BASE TABLE",
+    "is_insertable_into": "YES",
+    "is_typed": "NO",
+    "creation_time": "2025-03-28T09:42:47.403000+00:00",
+    "base_table_catalog": null,
+    "base_table_schema": null,
+    "base_table_name": null,
+    "snapshot_time_ms": null,
+    "ddl": "CREATE TABLE `doc-ai-studio.qsight_test.Contrast`\n(\n  ContrastId STRING NOT NULL,\n  ConsumptionDateTime TIMESTAMP NOT NULL,\n  HandledByStaffId STRING,\n  Amount FLOAT64,\n  AmountUOM STRING(25),\n  AdverseEvent BOOL NOT NULL,\n  AdverseEffects STRING(2000),\n  Billable BOOL NOT NULL,\n  BillingHold BOOL NOT NULL,\n  BillingExportId STRING,\n  DateCreated TIMESTAMP NOT NULL,\n  DateLastModified TIMESTAMP NOT NULL\n)\nPARTITION BY DATE(DateCreated);",
+    "default_collation_name": "NULL",
+    "upsert_stream_apply_watermark": null,
+    "replica_source_catalog": null,
+    "replica_source_schema": null,
+    "replica_source_name": null,
+    "replication_status": null,
+    "replication_error": null,
+    "is_change_history_enabled": "NO",
+    "sync_status": null
+}
