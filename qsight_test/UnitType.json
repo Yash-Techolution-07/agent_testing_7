@@ -1,0 +1,21 @@
+{
+    "table_catalog": "doc-ai-studio",
+    "table_schema": "qsight_test",
+    "table_name": "UnitType",
+    "column_name": "DateLastModified",
+    "ordinal_position": 5,
+    "is_nullable": "NO",
+    "data_type": "TIMESTAMP",
+    "is_generated": "NEVER",
+    "generation_expression": null,
+    "is_stored": null,
+    "is_hidden": "NO",
+    "is_updatable": null,
+    "is_system_defined": "NO",
+    "is_partitioning_column": "NO",
+    "clustering_ordinal_position": null,
+    "collation_name": "NULL",
+    "column_default": "NULL",
+    "rounding_mode": null,
+    "policy_tags": []
+}
